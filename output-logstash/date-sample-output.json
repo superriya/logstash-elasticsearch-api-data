@@ -1,0 +1,33 @@
+{
+    "path" => "/Users/sumitsontakke/Downloads/logstash-7.12.1/logstash-elasticsearch-api-data/input-data/date-sample.json",
+    "@version" => "1",
+    "B-date" => "2014-12-31T20:49:20.77Z",
+    "to_date" => 1420058960,
+    "host" => "Sumits-MacBook-Pro.local",
+    "A-date" => "2014-12-29T18:49:20.77Z",
+    "difference" => 180000,
+    "tags" => [
+        [0]
+        "multiline"
+    ],
+    "from_date" => 1419878960,
+    "@timestamp" => 2021 - 05 - 20 T08: 20: 44.502 Z,
+        "message" => "{\n    \"A-date\": \"2014-12-29T18:49:20.77Z\",\n    \"B-date\": \"2014-12-31T20:49:20.77Z\"\n}",
+        "type" => "json"
+} {
+    "path" => "/Users/sumitsontakke/Downloads/logstash-7.12.1/logstash-elasticsearch-api-data/input-data/date-sample.json",
+    "@version" => "1",
+    "B-date" => "2014-12-31T20:49:20.77Z",
+    "to_date" => 1420058960,
+    "host" => "Sumits-MacBook-Pro.local",
+    "A-date" => "2014-12-29T20:49:20.77Z",
+    "difference" => 172800,
+    "tags" => [
+        [0]
+        "multiline"
+    ],
+    "from_date" => 1419886160,
+    "@timestamp" => 2021 - 05 - 20 T08: 20: 44.503 Z,
+        "message" => "{\n    \"A-date\": \"2014-12-29T20:49:20.77Z\",\n    \"B-date\": \"2014-12-31T20:49:20.77Z\"\n}",
+        "type" => "json"
+}

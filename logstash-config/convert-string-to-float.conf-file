@@ -1,0 +1,38 @@
+ruby { 
+    code => '
+    event.set("[v]", event.get("[k]").to_f)
+    '
+    }
+
+}input {
+file {
+    type => "json"
+    codec => multiline {
+        pattern => "^{"
+        negate => true
+        what => previous
+        max_lines => 20000
+    }
+    path => "/Users/sumitsontakke/Downloads/logstash-7.12.1/logstash-elasticsearch-api-data/input-data/dates.json"
+    start_position => "beginning"
+    sincedb_path => "/Users/sumitsontakke/Downloads/logstash-7.12.1/logstash-elasticsearch-api-data/input-data/registry_logstash"
+}
+}
+
+filter {
+json {
+source => "message"
+}
+
+#The below code is converting field k into float and storing value in new field v
+ruby { 
+    code => '
+    event.set("[v]", event.get("[k]").to_f)
+    '
+    }
+
+}
+
+output {
+stdout { "codec" => "rubydebug"}
+}
