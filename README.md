@@ -24,4 +24,4 @@ At last we are assigning these values to fields, so we get them in logstash outp
 https://discuss.elastic.co/t/logstash-ruby-filter-to-subtract-difference-between-two-timestamps-in-single-event/32580/4
 https://discuss.elastic.co/t/how-to-calculate-timediff-of-two-fields-in-the-same-event/106417
 
-Thanks :)
+Thanks 😃
