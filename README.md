@@ -8,7 +8,7 @@ See code in logstash-config/convert-string-to-float.conf
 Input file has two dates - A-date and B-date
 see file input-data/date-sample.json
 
-Logstah config file with ruby filter to calculate time difference
+[Logstah config file](https://github.com/superriya/logstash-elasticsearch-api-data/blob/main/logstash-config/json_file.conf) with ruby filter to calculate time difference
 see file output-logstash/date-sample-output.json (output of logstash)
 
 I'm trying to explain the code below:
